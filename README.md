@@ -32,17 +32,17 @@ following services are already supported at this point in time:
 
 | Service                        | Execute                                                                                | Handle                                                                        |
 |--------------------------------|:--------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
-| Who Is                         | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.whoIs)                      | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.event:whoIs)       |
-| I Am                           | yes¹                                                                                   | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.event:iAm)         |
+| Who Is                         | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.whoIs)                      | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.event:whoIs)       |
+| I Am                           | yes¹                                                                                   | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.event:iAm)         |
 | Who Has                        | yes¹                                                                                   | yes¹                                                                          |
 | I Have                         | yes¹                                                                                   | yes¹                                                                          |
-| Time Sync                      | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.timeSync)                   | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.event:timeSync)    |
-| UTC Time Sync                  | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.timeSyncUTC)                | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.event:timeSyncUTC) |
-| Read Property                  | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.readProperty)               | yes¹                                                                          |
-| Read Property Multiple         | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.readPropertyMultiple)       | yes¹                                                                          |
+| Time Sync                      | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.timeSync)                   | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.event:timeSync)    |
+| UTC Time Sync                  | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.timeSyncUTC)                | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.event:timeSyncUTC) |
+| Read Property                  | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.readProperty)               | yes¹                                                                          |
+| Read Property Multiple         | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.readPropertyMultiple)       | yes¹                                                                          |
 | Read Range                     | yes¹                                                                                   | yes¹                                                                          |
-| Write Property                 | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.writeProperty)              | yes¹                                                                          |
-| Write Property Multiple        | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.writePropertyMultiple)      | yes¹                                                                          |
+| Write Property                 | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.writeProperty)              | yes¹                                                                          |
+| Write Property Multiple        | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.writePropertyMultiple)      | yes¹                                                                          |
 | Add List Element               | yes¹                                                                                   | yes¹                                                                          |
 | Remove List Element            | yes¹                                                                                   | yes¹                                                                          |
 | Create Object                  | yes¹                                                                                   | yes¹                                                                          |
@@ -52,14 +52,14 @@ following services are already supported at this point in time:
 | Subscribe Property             | yes¹                                                                                   | yes¹                                                                          |
 | Atomic Read File               | yes¹                                                                                   | yes¹                                                                          |
 | Atomic Write File              | yes¹                                                                                   | yes¹                                                                          |
-| Reinitialize Device            | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.reinitializeDevice)         | yes¹                                                                          |
-| Device Communication Control   | [yes](https://biancoroyal.github.io/node-bacstack/bacstack.html#.deviceCommunicationControl) | yes¹                                                                          |
+| Reinitialize Device            | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.reinitializeDevice)         | yes¹                                                                          |
+| Device Communication Control   | [yes](https://biancoroyal.github.io/node-bacstack/bacnet.html#.deviceCommunicationControl) | yes¹                                                                          |
 | Get Alarm Summary              | yes¹                                                                                   | yes¹                                                                          |
 | Get Event Information          | yes¹                                                                                   | yes¹                                                                          |
 | Get Enrollment Summary         | yes¹                                                                                   | yes¹                                                                          |
 | Acknowledge Alarm              | yes¹                                                                                   | yes¹                                                                          |
-| Confirmed Event Notification   | yes¹                                                                                   | yes¹                                                                          |
-| Unconfirmed Event Notification | yes¹                                                                                   | yes¹                                                                          |
+| Confirmed Event Notification   | [yes¹](https://biancoroyal.github.io/node-bacstack/bacnet.html#.confirmedCOVNotification)  | yes¹                                                                          |
+| Unconfirmed Event Notification | [yes¹](https://biancoroyal.github.io/node-bacstack/bacnet.html#.unconfirmedCOVNotification)| yes¹                                                                          |
 | Unconfirmed Private Transfer   | yes¹                                                                                   | yes¹                                                                          |
 | Confirmed Private Transfer     | yes¹                                                                                   | yes¹                                                                          |
 | Register Foreign Device        | no                                                                                     | yes¹                                                                          |
